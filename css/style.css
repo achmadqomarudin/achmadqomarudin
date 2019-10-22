@@ -89,6 +89,17 @@ a {
     @media (max-width: 991.98px) {
       .site-navbar .navbar-nav > li > a {
         color: rgba(0, 0, 0, 0.7) !important; } }
+        .site-navbar .navbar-nav > li > a:hover {
+          color: #57d131 !important;
+          font-size: 14px;
+          font-weight: 400;
+          letter-spacing: .1em;
+          position: relative;
+          text-transform: uppercase;
+          letter-spacing: .2em; }
+          @media (max-width: 991.98px) {
+            .site-navbar .navbar-nav > li > a {
+              color: rgba(0, 0, 0, 0.7) !important; } }
   .site-navbar .navbar-nav.active > a {
     color: #57d131 !important; }
   .site-navbar.scrolled {
