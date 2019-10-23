@@ -17,7 +17,13 @@
   <link rel="stylesheet" href="css/style.css">
 
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet">
-
+  <!-- Access Email -->
+  <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+  <script type="text/javascript">
+    (function(){
+        emailjs.init("user_q3BRLpzS8eUekokAB04YV");
+    })();
+  </script>
 
 </head>
 
@@ -657,22 +663,22 @@
         </div>
 
         <div class="col-md-7 mb-5 mb-md-0">
-          <form action="mailto:achmadprogrammer@gmail.com" method="post" enctype="text/plain" class="site-form">
+          <form class="site-form">
             <h3 class="mb-5">Get In Touch</h3>
             <div class="form-group">
-              <input type="text" class="form-control px-3 py-4" placeholder="Your Name">
+              <input type="text" class="form-control px-3 py-4 nama" placeholder="Your Name">
             </div>
             <div class="form-group">
-              <input type="email" class="form-control px-3 py-4" placeholder="Your Email">
+              <input type="email" class="form-control px-3 py-4 email" placeholder="Your Email">
             </div>
             <div class="form-group">
-              <input type="number" class="form-control px-3 py-4" placeholder="Your Phone">
+              <input type="number" class="form-control px-3 py-4 number" placeholder="Your Phone">
             </div>
             <div class="form-group mb-5">
-              <textarea class="form-control px-3 py-4" cols="30" rows="10" placeholder="Write a Message"></textarea>
+              <textarea class="form-control px-3 py-4 message" cols="30" rows="10" placeholder="Write a Message"></textarea>
             </div>
             <div class="form-group">
-              <input type="submit" class="btn btn-primary  px-4 py-3" value="Send Message">
+              <input type="button" onclick="kirim()" class="btn btn-primary  px-4 py-3" value="Send Message">
             </div>
           </form>
         </div>
@@ -734,9 +740,10 @@
   </footer>
 
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 
-  <script src="js/vendor/jquery.min.js"></script>
+  <!-- <script src="js/vendor/jquery.min.js"></script> -->
   <script src="js/vendor/popper.min.js"></script>
   <script src="js/vendor/bootstrap.min.js"></script>
 
@@ -753,6 +760,34 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
 
+
+  <script>
+    // $( document ).ready(function() {
+    //     console.log( "ready!" );
+
+    // });      
+    
+    function kirim() {
+
+        var nama    = document.querySelector(".nama").value
+        var email   = document.querySelector(".email").value
+        var number  = document.querySelector(".number").value
+        var message = document.querySelector(".message").value
+
+        var template_params = {
+          "from_email": email,
+          "from_name": nama,
+          "to_name": "Achmad",
+          "number" : number,
+          "message_html": message
+        }
+
+        var service_id = "default_service";
+        var template_id = "template_spo5bfnu";
+        emailjs.send(service_id, template_id, template_params);
+    }
+    
+    </script>
 </body>
 
 </html>
