@@ -658,7 +658,7 @@
 
         <div class="col-md-7 mb-5 mb-md-0">
           <form action="mailto:achmadprogrammer@gmail.com" method="post" enctype="text/plain" class="site-form">
-            <!-- <h3 class="mb-5">Get In Touch</h3>
+            <h3 class="mb-5">Get In Touch</h3>
             <div class="form-group">
               <input type="text" class="form-control px-3 py-4" placeholder="Your Name">
             </div>
@@ -673,59 +673,10 @@
             </div>
             <div class="form-group">
               <input type="submit" class="btn btn-primary  px-4 py-3" value="Send Message">
-            </div> -->
-
-            <form method="GET" action="mailto:achmadprogrammer@gmail.com" enctype="text/plain">
-              <div>Subject</div>
-              <input type="text" name="subject" />
-          
-              <div>Name</div>
-              <input name="Name" />
-          
-              <div>E-Mail</div>
-              <input name="E-Mail Address" />
-          
-              <div>Message</div>
-              <textarea name="Message"></textarea>
-          
-              <br/>
-              <input type="submit" value="Send" />
-          
-              <input type="hidden" name="body" />
+            </div>
           </form>
-          </form>
-
-          <script>
-            var form = document.getElementsByTagName('form')[0];
-            form.addEventListener('submit',contact,false);
-            function contact(e) {
-               // Prevent Default Form Submission
-               e.preventDefault();
-         
-               var target = e.target || e.srcElement;
-               var i = 0;
-               var message = '';
-         
-               // Loop Through All Input Fields
-               for(i = 0; i < target.length; ++i) {
-                  // Check to make sure it's a value. Don't need to include Buttons
-                  if(target[i].type != 'text' && target[i].type != 'textarea') {
-                         // Skip to next input since this one doesn't match our rules
-                     continue;
-                  }
-         
-                  // Add Input Name and value followed by a line break
-                  message += target[i].name + ': ' + target[i].value + "\r\n";
-               }
-               // Modify the hidden body input field that is required for the mailto: scheme
-               target.elements["body"].value = message;
-         
-               // Submit the form since we previously stopped it. May cause recursive loop in some browsers? Should research this.
-               this.submit();
-            }
-         </script>
         </div>
-
+        
         <div class="col-md-5 pl-md-5">
           <h3 class="mb-5">My Contact Details</h3>
           <ul class="site-contact-details">
