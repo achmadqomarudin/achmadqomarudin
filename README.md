@@ -1,4 +1,4 @@
-# Hi, I'm Achmad 👋😎
+# Hi, I'm Achmad <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px">😎
 <p align="center">
     <a href="https://achmadqomarudin.github.io">
         <img src="https://camo.githubusercontent.com/38bf262e2c177202fedef68851784c63dad5bb64/68747470733a2f2f6b6f6d617265762e636f6d2f67687076632f3f757365726e616d653d6172736869616d69646f73">
