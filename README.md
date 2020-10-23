@@ -1,7 +1,7 @@
 # Hi, I'm Achmad <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px">😎
 <p align="center">
-    <img alt="Android" src="https://img.shields.io/badge/Android-555?logo=android&logoColor=white&style=for-the-badge">
-    <img alt="GitHub" src="https://img.shields.io/github/followers/achmadqomarudin?logo=GitHub&style=for-the-badge">
+    <img alt="GitHub Stars" src="https://img.shields.io/github/stars/achmadqomarudin?logo=GitHub&style=for-the-badge">    
+    <img alt="GitHub Followers" src="https://img.shields.io/github/followers/achmadqomarudin?logo=GitHub&style=for-the-badge">
 </p>
 <a href="https://achmadqomarudin.github.io">
     <p align="center">
