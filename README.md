@@ -7,12 +7,13 @@
 </p>
 <a href="https://achmadqomarudin.github.io">
     <p align="center">
-        <img src="https://github-profile-trophy.vercel.app/?username=achmadqomarudin&column=7&theme=vue"/>
+        <img src="https://github-profile-trophy.vercel.app/?username=achmadqomarudin&column=6&theme=vue"/>
     </p>
 </a>
 <!-- My GitHub stats with buefy theme ❤️ -->
-<a align="center" href="https://achmadqomarudin.github.io">
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=achmadqomarudin&show_icons=true&theme=vue" alt="my github stats" width="420"/>&nbsp;<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=achmadqomarudin&layout=compact&theme=vue" alt="languages" height="165">
-</p>
+<!-- <a align="center" href="https://achmadqomarudin.github.io"> -->
+<a align="center" href="https://github.com/achmadqomarudin">
+    <p align="center">
+        <img src="https://github-readme-stats.vercel.app/api?username=achmadqomarudin&show_icons=true&theme=vue" alt="my github stats" width="420"/>&nbsp;<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=achmadqomarudin&layout=compact&theme=vue" alt="languages" height="165">
+    </p>
 </a>
