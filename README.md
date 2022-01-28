@@ -5,7 +5,7 @@
 </p>
 <a href="https://achmadqomarudin.github.io">
     <p align="center">
-        <img src="https://github-profile-trophy.vercel.app/?username=achmadqomarudin&column=6&theme=vue"/>
+        <img src="https://github-profile-trophy.vercel.app/?username=achmadqomarudin&column=7&theme=vue"/>
     </p>
 </a>
 
